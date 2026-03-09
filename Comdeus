@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transforme sua Vida</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#5E3A8C;
+color:white;
+text-align:center;
+}
+
+header{
+padding:60px 20px;
+background:linear-gradient(180deg,#5E3A8C,#3c2266);
+}
+
+h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.sub{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.btn{
+background:#D4AF37;
+color:black;
+padding:15px 30px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.produtos{
+padding:40px 20px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+color:black;
+padding:15px;
+border-radius:10px;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.buy{
+display:block;
+margin-top:10px;
+background:#D4AF37;
+padding:10px;
+border-radius:20px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.beneficios{
+background:#3c2266;
+padding:40px 20px;
+}
+
+.depoimentos{
+padding:40px 20px;
+}
+
+.box{
+background:white;
+color:black;
+padding:20px;
+border-radius:10px;
+margin:10px;
+}
+
+footer{
+padding:20px;
+background:#2b184a;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Transforme sua Vida com Fé</h1>
+
+<p class="sub">Baixe nossos eBooks e PDFs exclusivos de oração e motivação</p>
+
+<a class="btn" href="#">Baixar Agora</a>
+
+</header>
+
+
+<section class="produtos">
+
+<h2>Nossos Produtos</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="CAPA1.jpg">
+<p>7 Dias de Oração</p>
+<a class="buy" href="#">Comprar PDF</a>
+</div>
+
+<div class="card">
+<img src="CAPA2.jpg">
+<p>Afirmações Diárias</p>
+<a class="buy" href="#">Comprar PDF</a>
+</div>
+
+<div class="card">
+<img src="CAPA3.jpg">
+<p>Diário de Gratidão</p>
+<a class="buy" href="#">Comprar PDF</a>
+</div>
+
+<div class="card">
+<img src="CAPA4.jpg">
+<p>Planner Espiritual</p>
+<a class="buy" href="#">Comprar PDF</a>
+</div>
+
+<div class="card">
+<img src="CAPA5.jpg">
+<p>Guia de Orações Poderosas</p>
+<a class="buy" href="#">Comprar PDF</a>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="beneficios">
+
+<h2>Benefícios</h2>
+
+<p>✔ Transformação diária</p>
+<p>❤️ Mensagens de fé</p>
+<p>⚡ Entrega imediata</p>
+<p>🔒 Pagamento seguro</p>
+
+</section>
+
+
+<section class="depoimentos">
+
+<h2>Depoimentos</h2>
+
+<div class="box">
+"Esses eBooks mudaram minha rotina diária." <br>— Maria S.
+</div>
+
+<div class="box">
+"As orações me ajudaram em momentos difíceis." <br>— João P.
+</div>
+
+<div class="box">
+"Simples, rápido e transformador." <br>— Ana C.
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Transforme Sua Vida
+
+</footer>
+
+</body>
+</html>
